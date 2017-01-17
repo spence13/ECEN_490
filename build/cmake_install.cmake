@@ -118,6 +118,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/robot/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/robot/catkin_ws/build/soccerref/cmake_install.cmake")
+  include("/home/robot/catkin_ws/build/christiauto_robaldo/cmake_install.cmake")
   include("/home/robot/catkin_ws/build/demoteam/cmake_install.cmake")
   include("/home/robot/catkin_ws/build/mcthuggets/cmake_install.cmake")
   include("/home/robot/catkin_ws/build/soccersim/cmake_install.cmake")

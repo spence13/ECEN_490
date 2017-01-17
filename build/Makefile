@@ -673,43 +673,43 @@ geometry_msgs_generate_messages_py/fast:
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named controller
+# Target rules for targets named christiauto_robaldo_genpy
 
 # Build rule for target.
-controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 controller
-.PHONY : controller
+christiauto_robaldo_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_genpy
+.PHONY : christiauto_robaldo_genpy
 
 # fast build rule for target.
-controller/fast:
-	$(MAKE) -f demoteam/CMakeFiles/controller.dir/build.make demoteam/CMakeFiles/controller.dir/build
-.PHONY : controller/fast
+christiauto_robaldo_genpy/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_genpy.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_genpy.dir/build
+.PHONY : christiauto_robaldo_genpy/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_lisp
+# Target rules for targets named christiauto_robaldo_generate_messages_py
 
 # Build rule for target.
-std_srvs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
-.PHONY : std_srvs_generate_messages_lisp
+christiauto_robaldo_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages_py
+.PHONY : christiauto_robaldo_generate_messages_py
 
 # fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	$(MAKE) -f demoteam/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make demoteam/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
+christiauto_robaldo_generate_messages_py/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_py.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_py.dir/build
+.PHONY : christiauto_robaldo_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_py
+# Target rules for targets named christiauto_robaldo_gennodejs
 
 # Build rule for target.
-std_srvs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
-.PHONY : std_srvs_generate_messages_py
+christiauto_robaldo_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_gennodejs
+.PHONY : christiauto_robaldo_gennodejs
 
 # fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	$(MAKE) -f demoteam/CMakeFiles/std_srvs_generate_messages_py.dir/build.make demoteam/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
+christiauto_robaldo_gennodejs/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_gennodejs.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_gennodejs.dir/build
+.PHONY : christiauto_robaldo_gennodejs/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_nodejs
@@ -721,8 +721,47 @@ std_srvs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f demoteam/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make demoteam/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
 .PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_christiauto_robaldo_roslaunch-check
+
+# Build rule for target.
+_run_tests_christiauto_robaldo_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_christiauto_robaldo_roslaunch-check
+.PHONY : _run_tests_christiauto_robaldo_roslaunch-check
+
+# fast build rule for target.
+_run_tests_christiauto_robaldo_roslaunch-check/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo_roslaunch-check.dir/build.make christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo_roslaunch-check.dir/build
+.PHONY : _run_tests_christiauto_robaldo_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_christiauto_robaldo_roslaunch-check
+
+# Build rule for target.
+run_tests_christiauto_robaldo_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_christiauto_robaldo_roslaunch-check
+.PHONY : run_tests_christiauto_robaldo_roslaunch-check
+
+# fast build rule for target.
+run_tests_christiauto_robaldo_roslaunch-check/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check.dir/build.make christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check.dir/build
+.PHONY : run_tests_christiauto_robaldo_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_christiauto_robaldo
+
+# Build rule for target.
+_run_tests_christiauto_robaldo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_christiauto_robaldo
+.PHONY : _run_tests_christiauto_robaldo
+
+# fast build rule for target.
+_run_tests_christiauto_robaldo/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo.dir/build.make christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo.dir/build
+.PHONY : _run_tests_christiauto_robaldo/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_cpp
@@ -734,34 +773,34 @@ std_srvs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_cpp/fast:
-	$(MAKE) -f demoteam/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make demoteam/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_cpp
+# Target rules for targets named run_tests_christiauto_robaldo
 
 # Build rule for target.
-sensor_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
-.PHONY : sensor_msgs_generate_messages_cpp
+run_tests_christiauto_robaldo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_christiauto_robaldo
+.PHONY : run_tests_christiauto_robaldo
 
 # fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
+run_tests_christiauto_robaldo/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo.dir/build.make christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo.dir/build
+.PHONY : run_tests_christiauto_robaldo/fast
 
 #=============================================================================
-# Target rules for targets named demoteam_xacro_generated_to_devel_space_
+# Target rules for targets named std_srvs_generate_messages_py
 
 # Build rule for target.
-demoteam_xacro_generated_to_devel_space_: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demoteam_xacro_generated_to_devel_space_
-.PHONY : demoteam_xacro_generated_to_devel_space_
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
 
 # fast build rule for target.
-demoteam_xacro_generated_to_devel_space_/fast:
-	$(MAKE) -f demoteam/CMakeFiles/demoteam_xacro_generated_to_devel_space_.dir/build.make demoteam/CMakeFiles/demoteam_xacro_generated_to_devel_space_.dir/build
-.PHONY : demoteam_xacro_generated_to_devel_space_/fast
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_py.dir/build.make christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named std_srvs_generate_messages_eus
@@ -773,34 +812,203 @@ std_srvs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_srvs_generate_messages_eus/fast:
-	$(MAKE) -f demoteam/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make demoteam/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_eus.dir/build
 .PHONY : std_srvs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_lisp
+# Target rules for targets named std_srvs_generate_messages_lisp
 
 # Build rule for target.
-sensor_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
-.PHONY : sensor_msgs_generate_messages_lisp
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
 
 # fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named sensor_msgs_generate_messages_eus
+# Target rules for targets named _run_tests_christiauto_robaldo_roslaunch-check_launch
 
 # Build rule for target.
-sensor_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
-.PHONY : sensor_msgs_generate_messages_eus
+_run_tests_christiauto_robaldo_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_christiauto_robaldo_roslaunch-check_launch
+.PHONY : _run_tests_christiauto_robaldo_roslaunch-check_launch
 
 # fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
+_run_tests_christiauto_robaldo_roslaunch-check_launch/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo_roslaunch-check_launch.dir/build.make christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo_roslaunch-check_launch.dir/build
+.PHONY : _run_tests_christiauto_robaldo_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_generate_messages
+
+# Build rule for target.
+christiauto_robaldo_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages
+.PHONY : christiauto_robaldo_generate_messages
+
+# fast build rule for target.
+christiauto_robaldo_generate_messages/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages.dir/build
+.PHONY : christiauto_robaldo_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_generate_messages_cpp
+
+# Build rule for target.
+christiauto_robaldo_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages_cpp
+.PHONY : christiauto_robaldo_generate_messages_cpp
+
+# fast build rule for target.
+christiauto_robaldo_generate_messages_cpp/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_cpp.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_cpp.dir/build
+.PHONY : christiauto_robaldo_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _christiauto_robaldo_generate_messages_check_deps_BallState
+
+# Build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_BallState: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _christiauto_robaldo_generate_messages_check_deps_BallState
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_BallState
+
+# fast build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_BallState/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_BallState.dir/build.make christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_BallState.dir/build
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_BallState/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_generate_messages_nodejs
+
+# Build rule for target.
+christiauto_robaldo_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages_nodejs
+.PHONY : christiauto_robaldo_generate_messages_nodejs
+
+# fast build rule for target.
+christiauto_robaldo_generate_messages_nodejs/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_nodejs.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_nodejs.dir/build
+.PHONY : christiauto_robaldo_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_genlisp
+
+# Build rule for target.
+christiauto_robaldo_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_genlisp
+.PHONY : christiauto_robaldo_genlisp
+
+# fast build rule for target.
+christiauto_robaldo_genlisp/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_genlisp.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_genlisp.dir/build
+.PHONY : christiauto_robaldo_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named _christiauto_robaldo_generate_messages_check_deps_PIDInfo
+
+# Build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_PIDInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _christiauto_robaldo_generate_messages_check_deps_PIDInfo
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_PIDInfo
+
+# fast build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_PIDInfo/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_PIDInfo.dir/build.make christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_PIDInfo.dir/build
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_PIDInfo/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_gencpp
+
+# Build rule for target.
+christiauto_robaldo_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_gencpp
+.PHONY : christiauto_robaldo_gencpp
+
+# fast build rule for target.
+christiauto_robaldo_gencpp/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_gencpp.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_gencpp.dir/build
+.PHONY : christiauto_robaldo_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_christiauto_robaldo
+
+# Build rule for target.
+clean_test_results_christiauto_robaldo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_christiauto_robaldo
+.PHONY : clean_test_results_christiauto_robaldo
+
+# fast build rule for target.
+clean_test_results_christiauto_robaldo/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/clean_test_results_christiauto_robaldo.dir/build.make christiauto_robaldo/CMakeFiles/clean_test_results_christiauto_robaldo.dir/build
+.PHONY : clean_test_results_christiauto_robaldo/fast
+
+#=============================================================================
+# Target rules for targets named _christiauto_robaldo_generate_messages_check_deps_RobotState
+
+# Build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_RobotState: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _christiauto_robaldo_generate_messages_check_deps_RobotState
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_RobotState
+
+# fast build rule for target.
+_christiauto_robaldo_generate_messages_check_deps_RobotState/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_RobotState.dir/build.make christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_RobotState.dir/build
+.PHONY : _christiauto_robaldo_generate_messages_check_deps_RobotState/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_christiauto_robaldo_roslaunch-check_launch
+
+# Build rule for target.
+run_tests_christiauto_robaldo_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_christiauto_robaldo_roslaunch-check_launch
+.PHONY : run_tests_christiauto_robaldo_roslaunch-check_launch
+
+# fast build rule for target.
+run_tests_christiauto_robaldo_roslaunch-check_launch/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir/build.make christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir/build
+.PHONY : run_tests_christiauto_robaldo_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_generate_messages_eus
+
+# Build rule for target.
+christiauto_robaldo_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages_eus
+.PHONY : christiauto_robaldo_generate_messages_eus
+
+# fast build rule for target.
+christiauto_robaldo_generate_messages_eus/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_eus.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_eus.dir/build
+.PHONY : christiauto_robaldo_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_geneus
+
+# Build rule for target.
+christiauto_robaldo_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_geneus
+.PHONY : christiauto_robaldo_geneus
+
+# fast build rule for target.
+christiauto_robaldo_geneus/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_geneus.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_geneus.dir/build
+.PHONY : christiauto_robaldo_geneus/fast
+
+#=============================================================================
+# Target rules for targets named christiauto_robaldo_generate_messages_lisp
+
+# Build rule for target.
+christiauto_robaldo_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo_generate_messages_lisp
+.PHONY : christiauto_robaldo_generate_messages_lisp
+
+# fast build rule for target.
+christiauto_robaldo_generate_messages_lisp/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_lisp.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_lisp.dir/build
+.PHONY : christiauto_robaldo_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_nodejs
@@ -816,6 +1024,19 @@ sensor_msgs_generate_messages_nodejs/fast:
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_py
 
 # Build rule for target.
@@ -827,6 +1048,58 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 sensor_msgs_generate_messages_py/fast:
 	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f demoteam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make demoteam/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named demoteam_xacro_generated_to_devel_space_
+
+# Build rule for target.
+demoteam_xacro_generated_to_devel_space_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demoteam_xacro_generated_to_devel_space_
+.PHONY : demoteam_xacro_generated_to_devel_space_
+
+# fast build rule for target.
+demoteam_xacro_generated_to_devel_space_/fast:
+	$(MAKE) -f demoteam/CMakeFiles/demoteam_xacro_generated_to_devel_space_.dir/build.make demoteam/CMakeFiles/demoteam_xacro_generated_to_devel_space_.dir/build
+.PHONY : demoteam_xacro_generated_to_devel_space_/fast
+
+#=============================================================================
+# Target rules for targets named controller
+
+# Build rule for target.
+controller: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 controller
+.PHONY : controller
+
+# fast build rule for target.
+controller/fast:
+	$(MAKE) -f demoteam/CMakeFiles/controller.dir/build.make demoteam/CMakeFiles/controller.dir/build
+.PHONY : controller/fast
 
 #=============================================================================
 # Target rules for targets named _mcthuggets_generate_messages_check_deps_BallState
@@ -1699,18 +1972,39 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... controller"
-	@echo "... std_srvs_generate_messages_lisp"
-	@echo "... std_srvs_generate_messages_py"
+	@echo "... christiauto_robaldo_genpy"
+	@echo "... christiauto_robaldo_generate_messages_py"
+	@echo "... christiauto_robaldo_gennodejs"
 	@echo "... std_srvs_generate_messages_nodejs"
+	@echo "... _run_tests_christiauto_robaldo_roslaunch-check"
+	@echo "... run_tests_christiauto_robaldo_roslaunch-check"
+	@echo "... _run_tests_christiauto_robaldo"
 	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... demoteam_xacro_generated_to_devel_space_"
+	@echo "... run_tests_christiauto_robaldo"
+	@echo "... std_srvs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... _run_tests_christiauto_robaldo_roslaunch-check_launch"
+	@echo "... christiauto_robaldo_generate_messages"
+	@echo "... christiauto_robaldo_generate_messages_cpp"
+	@echo "... _christiauto_robaldo_generate_messages_check_deps_BallState"
+	@echo "... christiauto_robaldo_generate_messages_nodejs"
+	@echo "... christiauto_robaldo_genlisp"
+	@echo "... _christiauto_robaldo_generate_messages_check_deps_PIDInfo"
+	@echo "... christiauto_robaldo_gencpp"
+	@echo "... clean_test_results_christiauto_robaldo"
+	@echo "... _christiauto_robaldo_generate_messages_check_deps_RobotState"
+	@echo "... run_tests_christiauto_robaldo_roslaunch-check_launch"
+	@echo "... christiauto_robaldo_generate_messages_eus"
+	@echo "... christiauto_robaldo_geneus"
+	@echo "... christiauto_robaldo_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... demoteam_xacro_generated_to_devel_space_"
+	@echo "... controller"
 	@echo "... _mcthuggets_generate_messages_check_deps_BallState"
 	@echo "... mcthuggets_generate_messages"
 	@echo "... mcthuggets_gennodejs"

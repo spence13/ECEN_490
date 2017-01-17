@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(soccerref)
+subdirs(christiauto_robaldo)
 subdirs(demoteam)
 subdirs(mcthuggets)
 subdirs(soccersim)

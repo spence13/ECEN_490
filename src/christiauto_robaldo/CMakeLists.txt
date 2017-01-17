@@ -129,24 +129,24 @@ catkin_package(
 include_directories(include ${catkin_INCLUDE_DIRS}, include/playground)
 
 ## Declare a C++ library
-# add_library(soccersim_mcthuggets
-#   src/${PROJECT_NAME}/soccersim_mcthuggets.cpp
+# add_library(soccersim_christiauto_robaldo
+#   src/${PROJECT_NAME}/soccersim_christiauto_robaldo.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(soccersim_mcthuggets ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(soccersim_christiauto_robaldo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(soccersim_mcthuggets_node src/soccersim_mcthuggets_node.cpp)
+# add_executable(soccersim_christiauto_robaldo_node src/soccersim_christiauto_robaldo_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(soccersim_mcthuggets_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(soccersim_christiauto_robaldo_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(soccersim_mcthuggets_node
+# target_link_libraries(soccersim_christiauto_robaldo_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -166,7 +166,7 @@ include_directories(include ${catkin_INCLUDE_DIRS}, include/playground)
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS soccersim_mcthuggets soccersim_mcthuggets_node
+# install(TARGETS soccersim_christiauto_robaldo soccersim_christiauto_robaldo_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -191,7 +191,7 @@ include_directories(include ${catkin_INCLUDE_DIRS}, include/playground)
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_soccersim_mcthuggets.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_soccersim_christiauto_robaldo.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

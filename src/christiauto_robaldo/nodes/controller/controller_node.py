@@ -53,7 +53,7 @@ def main():
 
     # Sub/Pub
     rospy.Subscriber('robot_state', RobotState, _handle_robot_state)
-    rospy.Subscriber('desired_position', Pose2D, _handle_desired_position)
+    rospy.Subscriber('path_position', Pose2D, _handle_desired_position)
     pub = rospy.Publisher('vel_cmds', Twist, queue_size=10)
     pub_PIDInfo = rospy.Publisher('pidinfo', PIDInfo, queue_size=10)
 

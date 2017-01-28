@@ -271,6 +271,21 @@ _run_tests_christiauto_robaldo/fast:
 .PHONY : _run_tests_christiauto_robaldo/fast
 
 # Convenience name for target.
+christiauto_robaldo/CMakeFiles/DisplayImage.dir/rule:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo/CMakeFiles/DisplayImage.dir/rule
+.PHONY : christiauto_robaldo/CMakeFiles/DisplayImage.dir/rule
+
+# Convenience name for target.
+DisplayImage: christiauto_robaldo/CMakeFiles/DisplayImage.dir/rule
+
+.PHONY : DisplayImage
+
+# fast build rule for target.
+DisplayImage/fast:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/DisplayImage.dir/build.make christiauto_robaldo/CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
+
+# Convenience name for target.
 christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
 	cd /home/robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
@@ -496,6 +511,21 @@ _christiauto_robaldo_generate_messages_check_deps_RobotState/fast:
 .PHONY : _christiauto_robaldo_generate_messages_check_deps_RobotState/fast
 
 # Convenience name for target.
+christiauto_robaldo/CMakeFiles/Detection.dir/rule:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo/CMakeFiles/Detection.dir/rule
+.PHONY : christiauto_robaldo/CMakeFiles/Detection.dir/rule
+
+# Convenience name for target.
+Detection: christiauto_robaldo/CMakeFiles/Detection.dir/rule
+
+.PHONY : Detection
+
+# fast build rule for target.
+Detection/fast:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/Detection.dir/build.make christiauto_robaldo/CMakeFiles/Detection.dir/build
+.PHONY : Detection/fast
+
+# Convenience name for target.
 christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir/rule:
 	cd /home/robot/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir/rule
 .PHONY : christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir/rule
@@ -555,6 +585,60 @@ christiauto_robaldo_generate_messages_lisp/fast:
 	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_lisp.dir/build.make christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_lisp.dir/build
 .PHONY : christiauto_robaldo_generate_messages_lisp/fast
 
+src/Detection.o: src/Detection.cpp.o
+
+.PHONY : src/Detection.o
+
+# target to build an object file
+src/Detection.cpp.o:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/Detection.dir/build.make christiauto_robaldo/CMakeFiles/Detection.dir/src/Detection.cpp.o
+.PHONY : src/Detection.cpp.o
+
+src/Detection.i: src/Detection.cpp.i
+
+.PHONY : src/Detection.i
+
+# target to preprocess a source file
+src/Detection.cpp.i:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/Detection.dir/build.make christiauto_robaldo/CMakeFiles/Detection.dir/src/Detection.cpp.i
+.PHONY : src/Detection.cpp.i
+
+src/Detection.s: src/Detection.cpp.s
+
+.PHONY : src/Detection.s
+
+# target to generate assembly for a file
+src/Detection.cpp.s:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/Detection.dir/build.make christiauto_robaldo/CMakeFiles/Detection.dir/src/Detection.cpp.s
+.PHONY : src/Detection.cpp.s
+
+src/DisplayImage.o: src/DisplayImage.cpp.o
+
+.PHONY : src/DisplayImage.o
+
+# target to build an object file
+src/DisplayImage.cpp.o:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/DisplayImage.dir/build.make christiauto_robaldo/CMakeFiles/DisplayImage.dir/src/DisplayImage.cpp.o
+.PHONY : src/DisplayImage.cpp.o
+
+src/DisplayImage.i: src/DisplayImage.cpp.i
+
+.PHONY : src/DisplayImage.i
+
+# target to preprocess a source file
+src/DisplayImage.cpp.i:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/DisplayImage.dir/build.make christiauto_robaldo/CMakeFiles/DisplayImage.dir/src/DisplayImage.cpp.i
+.PHONY : src/DisplayImage.cpp.i
+
+src/DisplayImage.s: src/DisplayImage.cpp.s
+
+.PHONY : src/DisplayImage.s
+
+# target to generate assembly for a file
+src/DisplayImage.cpp.s:
+	cd /home/robot/catkin_ws/build && $(MAKE) -f christiauto_robaldo/CMakeFiles/DisplayImage.dir/build.make christiauto_robaldo/CMakeFiles/DisplayImage.dir/src/DisplayImage.cpp.s
+.PHONY : src/DisplayImage.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -572,6 +656,7 @@ help:
 	@echo "... _run_tests_christiauto_robaldo_roslaunch-check"
 	@echo "... run_tests_christiauto_robaldo_roslaunch-check"
 	@echo "... _run_tests_christiauto_robaldo"
+	@echo "... DisplayImage"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... edit_cache"
 	@echo "... run_tests_christiauto_robaldo"
@@ -590,10 +675,17 @@ help:
 	@echo "... install"
 	@echo "... clean_test_results_christiauto_robaldo"
 	@echo "... _christiauto_robaldo_generate_messages_check_deps_RobotState"
+	@echo "... Detection"
 	@echo "... run_tests_christiauto_robaldo_roslaunch-check_launch"
 	@echo "... christiauto_robaldo_generate_messages_eus"
 	@echo "... christiauto_robaldo_geneus"
 	@echo "... christiauto_robaldo_generate_messages_lisp"
+	@echo "... src/Detection.o"
+	@echo "... src/Detection.i"
+	@echo "... src/Detection.s"
+	@echo "... src/DisplayImage.o"
+	@echo "... src/DisplayImage.i"
+	@echo "... src/DisplayImage.s"
 .PHONY : help
 
 

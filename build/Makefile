@@ -764,6 +764,19 @@ _run_tests_christiauto_robaldo/fast:
 .PHONY : _run_tests_christiauto_robaldo/fast
 
 #=============================================================================
+# Target rules for targets named DisplayImage
+
+# Build rule for target.
+DisplayImage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
+.PHONY : DisplayImage
+
+# fast build rule for target.
+DisplayImage/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/DisplayImage.dir/build.make christiauto_robaldo/CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
+
+#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_cpp
 
 # Build rule for target.
@@ -957,6 +970,19 @@ _christiauto_robaldo_generate_messages_check_deps_RobotState: cmake_check_build_
 _christiauto_robaldo_generate_messages_check_deps_RobotState/fast:
 	$(MAKE) -f christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_RobotState.dir/build.make christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_RobotState.dir/build
 .PHONY : _christiauto_robaldo_generate_messages_check_deps_RobotState/fast
+
+#=============================================================================
+# Target rules for targets named Detection
+
+# Build rule for target.
+Detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Detection
+.PHONY : Detection
+
+# fast build rule for target.
+Detection/fast:
+	$(MAKE) -f christiauto_robaldo/CMakeFiles/Detection.dir/build.make christiauto_robaldo/CMakeFiles/Detection.dir/build
+.PHONY : Detection/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_christiauto_robaldo_roslaunch-check_launch
@@ -1979,6 +2005,7 @@ help:
 	@echo "... _run_tests_christiauto_robaldo_roslaunch-check"
 	@echo "... run_tests_christiauto_robaldo_roslaunch-check"
 	@echo "... _run_tests_christiauto_robaldo"
+	@echo "... DisplayImage"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... run_tests_christiauto_robaldo"
 	@echo "... std_srvs_generate_messages_py"
@@ -1994,6 +2021,7 @@ help:
 	@echo "... christiauto_robaldo_gencpp"
 	@echo "... clean_test_results_christiauto_robaldo"
 	@echo "... _christiauto_robaldo_generate_messages_check_deps_RobotState"
+	@echo "... Detection"
 	@echo "... run_tests_christiauto_robaldo_roslaunch-check_launch"
 	@echo "... christiauto_robaldo_generate_messages_eus"
 	@echo "... christiauto_robaldo_geneus"

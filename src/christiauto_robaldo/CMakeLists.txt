@@ -126,7 +126,7 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(include ${catkin_INCLUDE_DIRS}, include/playground)
+include_directories(include ${catkin_INCLUDE_DIRS})
 
 ## Declare a C++ library
 # add_library(soccersim_christiauto_robaldo
@@ -150,6 +150,11 @@ include_directories(include ${catkin_INCLUDE_DIRS}, include/playground)
 #   ${catkin_LIBRARIES}
 # )
 
+add_executable( DisplayImage src/DisplayImage.cpp )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
+
+add_executable( Detection src/Detection.cpp )
+target_link_libraries( Detection ${OpenCV_LIBS} )
 
 #############
 ## Install ##

@@ -22,6 +22,11 @@ import Constants
 
 from GameObjects import Ball, Robot
 
+#Variables for determining if ball stuck
+_ball_last_x = 0
+_ball_last_y = 0
+_ball_stuck_counter = 0
+
 #Variables for tracking opponent's strategy
 _avg_dist_between_opponents         = 0
 _averaging_factor                   = 0
@@ -88,10 +93,26 @@ Things I'm currently/need to work on:
 def choose_strategy(me, my_teammate, opponent1, opponent2, ball, game_state, team_side):
     global _avg_dist_between_opponents, _averaging_factor, _percent_time_ball_in_our_half, _percent_time_opponents_in_our_half
     global _our_score, _opponent_score
+    global _ball_last_x, _ball_last_y, _ball_stuck_counter
     update_opponents_strategy_variables(opponent1, opponent2, ball)
     
-    # Check to see if someone scored a goal
-    update_score(game_state, team_side)
+    # Check to see if someone scored a goal and to see if we are losing
+    losing = update_score(game_state, team_side)
+
+    if me.ally1:
+        if (abs(ball.xhat - _ball_last_x) <= 0.01):
+            if (abs(ball.yhat - _ball_last_y) <= 0.01):
+                _ball_stuck_counter += 1
+            else:
+                _ball_stuck_counter = 0
+        else:
+            _ball_stuck_counter = 0
+        _ball_last_x = ball.xhat
+        _ball_last_y = ball.yhat
+        if _ball_stuck_counter > 100:
+            print "BALL IS STUCK"
+            return (ball.xhat, ball.yhat, me.thetahat)
+
 
     # one_v_one or two_v_two?
     us_count = getattr(game_state, '{}_bot_count'.format(team_side))
@@ -261,6 +282,8 @@ def update_score(game_state, team_side):
 
     if goal:
         print("Score is now:\n\tUs: {} \n\tThem: {}".format(_our_score, _opponent_score))
+
+    return them_score > us_score
 
 
 def update_opponents_strategy_variables(opponent1, opponent2, ball):

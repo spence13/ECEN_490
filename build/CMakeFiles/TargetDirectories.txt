@@ -69,6 +69,7 @@
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo_roslaunch-check.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/_run_tests_christiauto_robaldo.dir
+/home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/DisplayImage.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/edit_cache.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo.dir
@@ -87,6 +88,7 @@
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/install.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/clean_test_results_christiauto_robaldo.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/_christiauto_robaldo_generate_messages_check_deps_RobotState.dir
+/home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/Detection.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/run_tests_christiauto_robaldo_roslaunch-check_launch.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/christiauto_robaldo_generate_messages_eus.dir
 /home/robot/catkin_ws/build/christiauto_robaldo/CMakeFiles/christiauto_robaldo_geneus.dir
